@@ -3,16 +3,23 @@
 public class TriangleUtilities {
 
     public static String getRow(int numberOfStars) {
-        return null;
+        String x = "";
+        for (int i = 0; i < numberOfStars; i++){
+        x = x + "*"; }
+        return x;
+
     }
     
     public static String getTriangle(int numberOfRows) {
-        return null;
+        String y = "";
+        for (int i = 0; i < numberOfRows; i++){
+         y += getRow(i) + "*\n"; }
+        return y;
     }
 
 
     public static String getSmallTriangle() {
-        return null;
+        return getTriangle(4);
     }
 
     public static String getLargeTriangle() {
