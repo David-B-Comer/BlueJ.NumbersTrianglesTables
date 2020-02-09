@@ -23,6 +23,6 @@ public class TriangleUtilities {
     }
 
     public static String getLargeTriangle() {
-        return null;
+        return getTriangle(9);
     }
 }
